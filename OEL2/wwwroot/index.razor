@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Analyzer</title>
+    <script>
+        async function analyzeScript() {
+            const scriptContent = document.getElementById("scriptInput").value;
+            const response = await fetch("https://localhost:5000/analyze", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ script: scriptContent })
+            });
+
+            const result = await response.json();
+            document.getElementById("result").innerText = result.message;
+        }
+    </script>
+</head>
+<body>
+    <h2>Security Analyzer</h2>
+    <textarea id="scriptInput" rows="5" cols="50" placeholder="Paste your script here..."></textarea><br>
+    <button onclick="analyzeScript()">Analyze Script</button>
+    <p id="result"></p>
+</body>
+</html>

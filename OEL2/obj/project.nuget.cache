@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "c4HLK/yglT1hCV43lsnpFP5OjADddOR7R9R6OqBuCtgFlBARcFDTLRoIMqr+kBoIbdJohBGKQ8YyIKXwl9CFOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fall2023\\Desktop\\LAB 8 REHAN\\OEL2\\OEL2\\OEL2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fall2023\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\fall2023\\.nuget\\packages\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\fall2023\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\fall2023\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.1.1\\swashbuckle.aspnetcore.swagger.8.1.1.nupkg.sha512",
+    "C:\\Users\\fall2023\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\fall2023\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
